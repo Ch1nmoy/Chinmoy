@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="theme-color" content="#06130d" />
+</head>
+<body>
+
+  <!-- Background Canvas -->
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader">
+      <div class="loader-ring"></div>
+      <div class="loader-text">Loading...</div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav container">
+      <a class="brand" href="#home" data-cursor="link">
+        <span class="brand-badge" aria-hidden="true">CC</span>
+        <span class="brand-text">Portfolio</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" data-cursor="link">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active" data-cursor="link">Home</a>
+        <a href="#about" class="nav-link" data-cursor="link">About</a>
+        <a href="#experience" class="nav-link" data-cursor="link">Experience</a>
+        <a href="#education" class="nav-link" data-cursor="link">Education</a>
+        <a href="#skills" class="nav-link" data-cursor="link">Skills</a>
+        <a href="#projects" class="nav-link" data-cursor="link">Projects</a>
+        <a href="#certifications" class="nav-link" data-cursor="link">Certificates</a>
+        <a href="#contact" class="nav-link" data-cursor="link">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main>
+
+    <!-- Hero -->
+    <section id="home" class="section hero container">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <div class="eyebrow reveal">Hi, I’m</div>
+          <h1 class="hero-title reveal" id="heroName">Your Name</h1>
+          <h2 class="hero-subtitle reveal" id="heroRole">Your Role</h2>
+          <p class="hero-desc reveal" id="heroSummary">
+            Short summary will load from JSON.
+          </p>
+
+          <div class="hero-cta reveal">
+            <a class="btn btn-primary" href="#contact" data-cursor="link">Contact Me</a>
+            <a class="btn btn-ghost" href="#projects" data-cursor="link">View Projects</a>
+          </div>
+        </div>
+
+        <div class="hero-right reveal">
+          <div class="photo-wrap">
+            <div class="photo-glow"></div>
+            <div class="photo-ring"></div>
+            <img id="heroPhoto" class="photo" src="assets/profile.jpg" alt="Profile photo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section container">
+      <div class="section-head">
+        <div class="section-index">01.</div>
+        <h3 class="section-title">About Me</h3>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-photo reveal">
+          <div class="photo-wrap photo-wrap-sm">
+            <div class="photo-glow"></div>
+            <div class="photo-ring"></div>
+            <img id="aboutPhoto" class="photo" src="assets/profile.jpg" alt="About photo" />
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <p id="aboutText"></p>
+
+          <div class="about-info">
+            <div class="info-item"><span>Name</span><strong id="infoName"></strong></div>
+            <div class="info-item"><span>Email</span><strong id="infoEmail"></strong></div>
+            <div class="info-item"><span>Phone</span><strong id="infoPhone"></strong></div>
+            <div class="info-item"><span>GitHub</span><strong id="infoGithub"></strong></div>
+          </div>
+
+          <div class="about-actions">
+            <a id="downloadCv" class="btn btn-ghost" target="_blank" rel="noreferrer" data-cursor="link"> Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section container">
+      <div class="section-head">
+        <div class="section-index">02.</div>
+        <h3 class="section-title">Work Experience</h3>
+      </div>
+
+      <div id="experienceGrid" class="cards-grid"></div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section container">
+      <div class="section-head">
+        <div class="section-index">03.</div>
+        <h3 class="section-title">Education</h3>
+      </div>
+
+      <div id="educationGrid" class="cards-grid cards-grid-3"></div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section container">
+      <div class="section-head">
+        <div class="section-index">04.</div>
+        <h3 class="section-title">Skills & Proficiencies</h3>
+      </div>
+
+      <div class="skills-grid">
+        <div class="card reveal">
+          <div class="card-title">Technical Skills</div>
+          <div id="skillBars" class="skill-bars"></div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-title">Programming & Tools</div>
+          <div id="toolChips" class="chips"></div>
+
+          <div class="soft-title">Soft Skills</div>
+          <ul id="softSkills" class="soft-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container">
+      <div class="section-head">
+        <div class="section-index">05.</div>
+        <h3 class="section-title">Project Experience</h3>
+      </div>
+
+      <div id="projectsGrid" class="cards-grid cards-grid-3"></div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section container">
+      <div class="section-head">
+        <div class="section-index">06.</div>
+        <h3 class="section-title">Certifications</h3>
+      </div>
+
+      <div id="certGrid" class="cards-grid cards-grid-3"></div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container">
+      <div class="section-head">
+        <div class="section-index">07.</div>
+        <h3 class="section-title">Get In Touch</h3>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <div class="card">
+            <div class="card-title">Contact Information</div>
+            <p class="muted" id="contactNote"></p>
+
+            <div class="contact-list">
+              <div class="contact-item">
+                <span class="icon" aria-hidden="true">✉</span>
+                <div>
+                  <div class="label">Email</div>
+                  <a id="contactEmail" href="#" data-cursor="link"></a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <span class="icon" aria-hidden="true">☎</span>
+                <div>
+                  <div class="label">Phone</div>
+                  <a id="contactPhone" href="#" data-cursor="link"></a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <span class="icon" aria-hidden="true">⌂</span>
+                <div>
+                  <div class="label">Website</div>
+                  <a id="contactWebsite" href="#" target="_blank" rel="noreferrer" data-cursor="link"></a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <span class="icon" aria-hidden="true">⌁</span>
+                <div>
+                  <div class="label">GitHub</div>
+                  <a id="contactGithub" href="#" target="_blank" rel="noreferrer" data-cursor="link"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-row" id="socialRow"></div>
+          </div>
+        </div>
+
+        <div class="contact-right reveal">
+          <form class="card form" id="contactForm">
+            <div class="card-title">Send Message</div>
+
+            <label class="field">
+              <span>Your Name</span>
+              <input type="text" id="fName" placeholder="Enter your name" autocomplete="name" data-cursor="input" />
+            </label>
+
+            <label class="field">
+              <span>Your Email</span>
+              <input type="email" id="fEmail" placeholder="Enter your email" autocomplete="email" data-cursor="input" />
+            </label>
+
+            <label class="field">
+              <span>Subject</span>
+              <input type="text" id="fSubject" placeholder="Enter subject" data-cursor="input" />
+            </label>
+
+            <label class="field">
+              <span>Your Message</span>
+              <textarea id="fMessage" placeholder="Enter your message" rows="6" data-cursor="input"></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-primary btn-wide" data-cursor="link">Send Message</button>
+            <div class="form-hint muted">This demo opens your email client (mailto). You can connect Formspree later.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer container">
+    <div class="muted">© <span id="year"></span> <span id="footerName">Your Name</span>. All rights reserved.</div>
+  </footer>
+
+  <!-- Certificate Modal -->
+  <div class="modal" id="certModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose" aria-label="Close" data-cursor="link">✕</button>
+      <div class="modal-title" id="modalTitle">Certificate</div>
+      <a class="modal-link" id="modalLink" target="_blank" rel="noreferrer" data-cursor="link">Open Certificate</a>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

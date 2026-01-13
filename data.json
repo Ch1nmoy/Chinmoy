@@ -1,0 +1,163 @@
+{
+  "profile": {
+    "name": "Chinmoy Chakma",
+    "role": "Software Quality Assurance Engineer",
+    "summary": "3+ years of experience in Software Testing & QA with expertise in automation testing, API testing, and quality management.",
+    "about": "I’m a passionate Software Quality Assurance Engineer focused on delivering high-quality web and mobile applications through comprehensive testing strategies. I work across manual and automation testing, build maintainable test suites, and collaborate closely with developers and product teams to ship reliable releases.",
+    "photo": "assets/profile.jpg",
+    "cv": "https://drive.google.com/file/d/1g6kJMdtmU4tETT_SJ_5ZTtwvAWcsxIoL/view?usp=sharing",
+    "email": "chinmoyc15@gmail.com",
+    "phone": "+8801329493536",
+    "website": "https://your-portfolio-link.com",
+    "github": "https://github.com/Ch1nmoy"
+  },
+
+  "experience": [
+    {
+      "title": "Software Quality Assurance Engineer(Intern)",
+      "company": "QA Harbor Limited",
+      "date": "October 2025 - Present",
+      "highlights": [
+        "Led a QA team to test web and mobile applications",
+        "Built automation suites using Selenium/Cypress, reducing manual effort",
+        "Collaborated with devs/PMs to improve CI/CD release quality",
+        "Managed test plans, regression cycles, and reporting"
+      ]
+    },
+    {
+      "title": "Software Quality Assurance Engineer",
+      "company": "QA Harbor Limited",
+      "date": "Jul 2023 - Aug 2024",
+      "highlights": [
+        "Designed test cases and maintained test documentation",
+        "Performed functional, regression, and exploratory testing",
+        "Worked on API testing with Postman and REST Assured",
+        "Mentored junior testers and improved QA process"
+      ]
+    },
+    {
+      "title": "Junior Software Quality Assurance Engineer",
+      "company": "AubTech",
+      "date": "May 2022 - Jun 2023",
+      "highlights": [
+        "Assisted in test case development and execution",
+        "Reported bugs with clear repro steps and logs",
+        "Participated in sprint QA and release testing",
+        "Learned testing fundamentals and tools"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "BSc in CSE",
+      "institute": "Green University of Bangladesh",
+      "date": "2022 - 2026",
+      "details": "Bachelor of Science in Computer Science & Engineering with focus on software development and QA."
+    },
+    {
+      "degree": "HSC (Science)",
+      "institute": "Rangamati Government College",
+      "date": "2019 - 2020",
+      "details": "Science background with Mathematics, Physics and Chemistry."
+    },
+    {
+      "degree": "SSC (Science)",
+      "institute": "Chittagong Municipal Model School and College",
+      "date": "2016 - 2017",
+      "details": "Secondary School Certificate in Science with strong academic results."
+    }
+  ],
+
+  "skills": {
+    "technical": [
+      { "name": "Automation Testing (Selenium)", "value": 80 },
+      { "name": "Security Testing (Burp Suite)", "value": 85 },
+      { "name": "API Testing (Postman, REST)", "value": 90 },
+      { "name": "Performance Testing (JMeter)", "value": 85 },
+      { "name": "Database (MySQL)", "value": 88 }
+    ],
+    "tools": ["Java", "Python", "JavaScript", "Selenium", "Burp Suite", "Zap Proxy", "Postman", "REST Assured", "JMeter", "Jira", "Git"],
+    "soft": ["Team Leadership", "Problem Solving", "Communication", "Analytical Thinking", "Attention to Detail"]
+  },
+
+  "projects": [
+    {
+      "name": "Virtual Classroom",
+      "type": "Web Application",
+      "description": "Comprehensive manual testing including functional, UI, and regression testing for an employee management system.",
+      "materials": "https://github.com/Ch1nmoy/Virtual-Classroom"
+    },
+    {
+      "name": "CareGiver – Medication & Routine Assistant",
+      "type": "Mobile Application",
+      "description": "End-to-end testing of job portal features including registration, job posting, and application flow.",
+      "materials": "https://example.com/test-materials"
+    },
+    {
+      "name": "Career Web Application",
+      "type": "Automation Testing",
+      "description": "Automated test suite using Selenium with comprehensive coverage and reporting.",
+      "source": "https://github.com/yourusername/project"
+    },
+    {
+      "name": "QA Harbor Limited – Website Testing",
+      "type": "Manual Testing",
+      "description": "End-to-end testing of job portal features including registration, job posting, and application flow.",
+      "materials": "https://example.com/test-materials"
+    },
+    {
+      "name": "Intradoc International Limited – Website Testing",
+      "type": "Manual Testing",
+      "description": "End-to-end testing of job portal features including registration, job posting, and application flow.",
+      "materials": "https://example.com/test-materials"
+    },{
+      "name": "Nymph Solution Limited",
+      "type": "Manual Testing",
+      "description": "End-to-end testing of job portal features including registration, job posting, and application flow.",
+      "materials": "https://example.com/test-materials"
+    },
+    {
+      "name": "Smart Bancharampur - Mobile Application",
+      "type": "Manual Testing",
+      "description": "End-to-end testing of job portal features including registration, job posting, and application flow.",
+      "materials": "https://example.com/test-materials"
+    },
+    {
+      "name": "Chaldal – eCommerce website",
+      "type": "Manual and Automation Testing",
+      "description": "End-to-end testing of job portal features including registration, job posting, and application flow.",
+      "materials": "https://example.com/test-materials"
+    }
+  ],
+
+  "certifications": [
+    {
+      "title": "Git Certification",
+      "category": "Programming",
+      "description": "Certified in Java programming, OOP concepts, collections, and exception handling.",
+      "link": "https://drive.google.com/file/d/18XILnPtoInI0ye_-06g_Ne_BlLydBzxk/view?usp=sharing"
+    },
+    {
+      "title": "GitHub Certification",
+      "category": "Programming",
+      "description": "Certified in SQL, database design, complex queries, and optimization.",
+      "link": "https://drive.google.com/file/d/1HGn4-F4AWNZ_HXOhCrbl0xRyhSQOAv3d/view?usp=sharing"
+    },
+    {
+      "title": "Programming Contest",
+      "category": "Achievement",
+      "description": "Achieved 4th position in intra university programming contest.",
+      "link": "https://example.com/certificate"
+    }
+  ],
+
+  "contactNote": "Feel free to reach out for opportunities or collaboration. I’m always open to discussing new projects and ideas.",
+
+  "socials": [
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/in/chinmoy-chakma/", "icon": "in" },
+    { "name": "GitHub", "url": "https://github.com/Ch1nmoy", "icon": "gh" },
+    { "name": "Facebook", "url": "https://www.facebook.com/chinmoy.chakma.79", "icon": "fb" },
+    { "name": "Instagram", "url": "https://www.instagram.com/chinmoysanam/", "icon": "ig" }
+  ]
+}

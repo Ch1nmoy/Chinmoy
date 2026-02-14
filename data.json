@@ -2,13 +2,13 @@
   "profile": {
     "name": "Chinmoy Chakma",
     "role": "Software Quality Assurance Engineer",
-    "summary": "3+ years of experience in Software Testing & QA with expertise in automation testing, API testing, and quality management.",
+    "summary": "3+ months of experience in Software Testing & QA with expertise in automation testing, API testing, and quality management.",
     "about": "I’m a passionate Software Quality Assurance Engineer focused on delivering high-quality web and mobile applications through comprehensive testing strategies. I work across manual and automation testing, build maintainable test suites, and collaborate closely with developers and product teams to ship reliable releases.",
     "photo": "assets/profile.jpg",
-    "cv": "https://drive.google.com/file/d/1g6kJMdtmU4tETT_SJ_5ZTtwvAWcsxIoL/view?usp=sharing",
+    "cv": "https://drive.google.com/file/d/14tWYCBAwaonVXCZyEJGbzbpv0Nk4gH79/view?usp=sharing",
     "email": "chinmoyc15@gmail.com",
     "phone": "+8801329493536",
-    "website": "https://your-portfolio-link.com",
+    "website": "https://chinmoy-nine.vercel.app",
     "github": "https://github.com/Ch1nmoy"
   },
 
@@ -16,18 +16,18 @@
     {
       "title": "Software Quality Assurance Engineer(Intern)",
       "company": "QA Harbor Limited",
-      "date": "October 2025 - Present",
+      "date": "October 2025 - January 2026",
       "highlights": [
         "Led a QA team to test web and mobile applications",
-        "Built automation suites using Selenium/Cypress, reducing manual effort",
+        "Built automation suites using Selenium, reducing manual effort",
         "Collaborated with devs/PMs to improve CI/CD release quality",
         "Managed test plans, regression cycles, and reporting"
       ]
     },
     {
-      "title": "Software Quality Assurance Engineer",
+      "title": "Software Quality Assurance Engineer(Training)",
       "company": "QA Harbor Limited",
-      "date": "Jul 2023 - Aug 2024",
+      "date": "October 2025 - January 2026",
       "highlights": [
         "Designed test cases and maintained test documentation",
         "Performed functional, regression, and exploratory testing",
@@ -35,17 +35,6 @@
         "Mentored junior testers and improved QA process"
       ]
     },
-    {
-      "title": "Junior Software Quality Assurance Engineer",
-      "company": "AubTech",
-      "date": "May 2022 - Jun 2023",
-      "highlights": [
-        "Assisted in test case development and execution",
-        "Reported bugs with clear repro steps and logs",
-        "Participated in sprint QA and release testing",
-        "Learned testing fundamentals and tools"
-      ]
-    }
   ],
 
   "education": [
@@ -95,12 +84,6 @@
       "materials": "https://example.com/test-materials"
     },
     {
-      "name": "Career Web Application",
-      "type": "Automation Testing",
-      "description": "Automated test suite using Selenium with comprehensive coverage and reporting.",
-      "source": "https://github.com/yourusername/project"
-    },
-    {
       "name": "QA Harbor Limited – Website Testing",
       "type": "Manual Testing",
       "description": "End-to-end testing of job portal features including registration, job posting, and application flow.",
@@ -128,10 +111,22 @@
       "type": "Manual and Automation Testing",
       "description": "End-to-end testing of job portal features including registration, job posting, and application flow.",
       "materials": "https://example.com/test-materials"
+    },
+    {
+      "name": "Career Web Application",
+      "type": "Automation Testing",
+      "description": "Automated test suite using Selenium with comprehensive coverage and reporting.",
+      "source": "https://github.com/yourusername/project"
     }
   ],
 
   "certifications": [
+    {
+      "title": "SQA Intern",
+      "category": "Industrial Training",
+      "description": "Worked as a QA Intern (Industrial Training), executing manual, automation, performance, security, and API testing to ensure high-quality software delivery.",
+      "link": "https://drive.google.com/file/d/1rfuW7MvGiCKVhXPO-ZiJDQYWI_bXZpUj/view?usp=sharing"
+    },
     {
       "title": "Git Certification",
       "category": "Programming",

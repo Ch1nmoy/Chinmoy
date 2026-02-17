@@ -87,7 +87,7 @@
       "name": "QA Harbor Limited – Website Testing",
       "type": "Manual Testing",
       "description": "End-to-end testing of job portal features including registration, job posting, and application flow.",
-      "materials": "https://example.com/test-materials"
+      "materials": "https://github.com/Ch1nmoy/QA-Harbor-Limited"
     },
     {
       "name": "Intradoc International Limited – Website Testing",

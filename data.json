@@ -72,6 +72,12 @@
 
   "projects": [
     {
+      "name": "Repair360",
+      "type": "Web Application Testing",
+      "description": "Comprehensive manual, performance, and security testing of the Repair360 web platform.",
+      "materials": "https://github.com/Ch1nmoy/Repair360"
+    },
+    {
       "name": "Virtual Classroom",
       "type": "Web Application",
       "description": "Comprehensive manual testing including functional, UI, and regression testing for an employee management system.",

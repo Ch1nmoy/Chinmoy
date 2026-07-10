@@ -78,6 +78,12 @@
       "materials": "https://github.com/Ch1nmoy/Repair360"
     },
     {
+      "name": "Chaldal – eCommerce website",
+      "type": "Manual and Automation Testing",
+      "description": "End-to-end testing of job portal features including registration, job posting, and application flow.",
+      "materials": "https://example.com/test-materials"
+    },
+    {
       "name": "Virtual Classroom",
       "type": "Web Application",
       "description": "Comprehensive manual testing including functional, UI, and regression testing for an employee management system.",
@@ -109,12 +115,6 @@
     {
       "name": "Smart Bancharampur - Mobile Application",
       "type": "Manual Testing",
-      "description": "End-to-end testing of job portal features including registration, job posting, and application flow.",
-      "materials": "https://example.com/test-materials"
-    },
-    {
-      "name": "Chaldal – eCommerce website",
-      "type": "Manual and Automation Testing",
       "description": "End-to-end testing of job portal features including registration, job posting, and application flow.",
       "materials": "https://example.com/test-materials"
     },

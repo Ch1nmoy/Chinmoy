@@ -79,9 +79,9 @@
     },
     {
       "name": "Chaldal – eCommerce website",
-      "type": "Manual and Automation Testing",
-      "description": "End-to-end testing of job portal features including registration, job posting, and application flow.",
-      "materials": "https://example.com/test-materials"
+      "type": "eCommerce Website Testing",
+      "description": "Full-stack QA testing of Chaldal-eCommerce Website covering manual, performance,api and security testing.",
+      "materials": "https://github.com/Ch1nmoy/Chaldal-eCommerce_Website"
     },
     {
       "name": "Virtual Classroom",
